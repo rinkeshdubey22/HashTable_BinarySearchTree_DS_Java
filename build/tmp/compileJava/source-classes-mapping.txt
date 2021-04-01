@@ -10,7 +10,7 @@ com/bridgelabz/MyHashMap.java
  com.bridgelabz.MyHashMap
 com/bridgelabz/MyLinkedList.java
  com.bridgelabz.MyLinkedList
-com/bridgelabz/MyBinaryTree.java
- com.bridgelabz.MyBinaryTree
 com/bridgelabz/MyBinaryNode.java
  com.bridgelabz.MyBinaryNode
+com/bridgelabz/MyBinaryTree.java
+ com.bridgelabz.MyBinaryTree
