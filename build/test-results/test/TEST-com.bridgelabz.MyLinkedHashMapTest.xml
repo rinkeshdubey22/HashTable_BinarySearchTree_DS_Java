@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MyLinkedHashMapTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-01T08:29:23" hostname="LAPTOP-FPFKM2LM" time="0.035">
+<testsuite name="com.bridgelabz.MyLinkedHashMapTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-01T08:45:48" hostname="LAPTOP-FPFKM2LM" time="0.065">
   <properties/>
-  <testcase name="addedStringWhenRemoveAWordFromSentenceShouldRemoveThatWordFromHashMap()" classname="com.bridgelabz.MyLinkedHashMapTest" time="0.035"/>
+  <testcase name="addedStringWhenRemoveAWordFromSentenceShouldRemoveThatWordFromHashMap()" classname="com.bridgelabz.MyLinkedHashMapTest" time="0.065"/>
   <system-out><![CDATA[MyLinkedHashMap List { [MyLinkedListNodes{ MyMapNode { K = themselves V = 1}, MyLinkedListNodes{ MyMapNode { K = but V = 1 -> MyMapNode { K = keep V = 1}, MyLinkedListNodes{ MyMapNode { K = are V = 2 -> MyMapNode { K = they V = 2 -> MyMapNode { K = into V = 1}, null, null, MyLinkedListNodes{ MyMapNode { K = paranoids V = 1 -> MyMapNode { K = putting V = 1}, MyLinkedListNodes{ MyMapNode { K = deliberately V = 1}, MyLinkedListNodes{ MyMapNode { K = not V = 1}, MyLinkedListNodes{ MyMapNode { K = paranoid V = 3 -> MyMapNode { K = because V = 2}, MyLinkedListNodes{ MyMapNode { K = situations V = 1}] }
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
