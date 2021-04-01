@@ -44,6 +44,24 @@ public class MyLinkedHashMap <K, V>
         }
     }
 
+    public boolean removeWordFromPhrase(K key) {
+
+        int index = this.getBucketIndex(key);
+
+        MyLinkedList<K> linkedList = this.myBucketArray.get(index);
+        if (linkedList == null) {
+            return false;
+        }
+        MyMapNode<K, V> myMapNode = (MyMapNode<K, V>) linkedList.search(key);
+
+        if (myMapNode == null) {
+            return false;
+        } else {
+            linkedList.removeWordFromPhrase(myMapNode);
+            return (myMapNode.getKey().equals(key));
+        }
+    }
+
     @Override
     public String toString() {
         return "MyLinkedHashMap List { " + myBucketArray + " }";
